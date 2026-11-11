@@ -1,0 +1,343 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Request for Parents — Sadhupally F.P. School</title>
+  <link rel="icon" href="pic\logo1.jpg" type="image/x-icon">
+  <meta name="description" content="Parents can request admission information, a campus visit, or raise a query with Sadhupally F.P. School.">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600;700&family=Nunito+Sans:wght@400;600;700;800&family=Space+Mono&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- TOP BAR -->
+  <div class="topbar">
+    <div class="container">
+      <div>
+        <a href="tel:+919932250778">📞 +91 99322 50778</a>
+        &nbsp;·&nbsp;
+        <a href="mailto:sadhupallyfpschool@gmail.com">
+          sadhupallyfpschool@gmail.com
+        </a>
+      </div>
+
+      <div class="topbar__motto">
+        Pre-Primary to Class 4 &nbsp;•&nbsp; Admissions open for 2026–2027
+      </div>
+    </div>
+  </div>
+
+  <!-- HEADER AND NAVIGATION -->
+  <header class="site-header">
+    <div class="container">
+
+      <a class="brand" href="index.html">
+        <img
+          src="https://i.ibb.co/7cHHKj4/logo1.jpg"
+          alt="Sadhupally F.P. School Logo"
+          class="brand__mark"
+        >
+
+        <span>
+          <span class="brand__name">Sadhupally F.P. School</span><br>
+          <span class="brand__tag">Little steps, strong foundations</span>
+        </span>
+      </a>
+
+      <button
+        class="nav-toggle"
+        aria-label="Toggle navigation menu"
+        aria-expanded="false"
+        aria-controls="main-nav"
+        type="button"
+      >
+        <span></span>
+      </button>
+
+      <nav class="nav" id="main-nav">
+        <a href="index.html">Home</a>
+        <a href="about.html">About Us</a>
+        <a href="rules.html">Rules</a>
+        <a href="facilities.html">Facilities</a>
+        <a href="activities.html">Activities &amp; Events</a>
+        <a href="request.html" aria-current="page">Request for Parents</a>
+        <a href="contact.html">Contact Us</a>
+      </nav>
+
+    </div>
+  </header>
+
+  <!-- MAIN CONTENT -->
+  <main>
+
+    <!-- PAGE HERO -->
+    <section class="page-hero">
+      <div class="container">
+
+        <div class="breadcrumb">
+          <a href="index.html">Home</a> / Request for Parents
+        </div>
+
+        <span class="eyebrow">● For parents</span>
+
+        <h1>Request for Parents</h1>
+
+        <p>
+          Request admission information, arrange a campus visit,
+          inform us about your child's leave, or send us a query.
+          Fill in the form below to contact the school.
+        </p>
+
+      </div>
+    </section>
+
+    <!-- REQUEST FORM AND INFORMATION -->
+    <section class="section">
+      <div class="container grid grid-2" style="gap:44px; align-items:flex-start;">
+
+        <!-- REQUEST FORM -->
+        <div class="form-card">
+          <h2 class="mt-0">Send a request</h2>
+
+          <form data-static-form>
+
+            <div class="form-row">
+              <div>
+                <label for="parent-name">Parent / guardian name</label>
+                <input
+                  type="text"
+                  id="parent-name"
+                  name="parent-name"
+                  autocomplete="name"
+                  required
+                >
+              </div>
+
+              <div>
+                <label for="phone">Phone number</label>
+                <input
+                  type="tel"
+                  id="phone"
+                  name="phone"
+                  autocomplete="tel"
+                  required
+                >
+              </div>
+            </div>
+
+            <div class="form-row">
+              <div>
+                <label for="child-name">Child's name</label>
+                <input
+                  type="text"
+                  id="child-name"
+                  name="child-name"
+                  autocomplete="off"
+                >
+              </div>
+
+              <div>
+                <label for="class">Class / grade</label>
+                <select id="class" name="class">
+                  <option value="">Select class</option>
+                  <option value="Pre-Primary">Pre-Primary</option>
+                  <option value="Class 1">Class 1</option>
+                  <option value="Class 2">Class 2</option>
+                  <option value="Class 3">Class 3</option>
+                  <option value="Class 4">Class 4</option>
+                </select>
+              </div>
+            </div>
+
+            <label for="request-type">Type of request</label>
+            <select id="request-type" name="request-type">
+              <option value="Admission information">Admission information</option>
+              <option value="Campus visit">Campus visit</option>
+              <option value="Leave of absence">Leave of absence</option>
+              <option value="General query">General query</option>
+              <option value="Other">Other</option>
+            </select>
+
+            <label for="message">Message</label>
+            <textarea
+              id="message"
+              name="message"
+              rows="5"
+              placeholder="Tell us a little about your request..."
+            ></textarea>
+
+            <div style="margin-top:20px;">
+              <button type="submit" class="btn btn-primary">
+                Submit request
+              </button>
+            </div>
+
+          </form>
+
+          <div class="form-success" role="status" aria-live="polite">
+            ✓ Thank you — your request has been noted.
+            The school office will contact you shortly.
+          </div>
+
+          <p class="form-note">
+            This form is a template and is not yet connected to the
+            school office. Until email or backend submission is set up,
+            please send your request directly to
+            <a href="mailto:sadhupallyfpschool@gmail.com">
+              sadhupallyfpschool@gmail.com
+            </a>
+            or call the school.
+          </p>
+        </div>
+
+        <!-- COMMON REQUESTS -->
+        <div>
+          <h2 class="mt-0">Common requests</h2>
+
+          <ul class="check-list" style="margin-bottom:26px;">
+            <li>Admission enquiries for Pre-Primary to Class 4</li>
+            <li>Booking a campus visit before enrolling</li>
+            <li>Informing the school about a child's leave or illness</li>
+            <li>Requesting a progress update outside PTM dates</li>
+            <li>General questions about fees, timings or transport</li>
+          </ul>
+
+          <!-- DIRECT CONTACT CARD -->
+          <div class="card tone-sky">
+            <div class="card__icon">📞</div>
+
+            <h3>Prefer to talk directly?</h3>
+
+            <p>
+              Call the school office during working hours,
+              or visit us in person.
+            </p>
+
+            <p style="margin-top:12px;">
+              <a class="btn btn-ghost" href="tel:+919932250778">
+                📞 Call the School →
+              </a>
+            </p>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="container">
+
+      <div class="footer-grid">
+
+        <!-- SCHOOL INFORMATION -->
+        <div>
+          <div class="footer-brand">
+            <img
+              src="https://i.ibb.co/7cHHKj4/logo1.jpg"
+              alt="Sadhupally F.P. School Logo"
+              class="brand__mark"
+            >
+
+            <strong style="color:#EFE7D2; font-family:var(--font-display);">
+              Sadhupally F.P. School
+            </strong>
+          </div>
+
+          <p>
+            A Pre-Primary to Class 4 school focused on
+            strong foundations, small classrooms and caring teachers.
+          </p>
+        </div>
+
+        <!-- FOOTER LINKS -->
+        <div>
+          <h4>Explore</h4>
+
+          <ul>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="rules.html">Rules</a></li>
+            <li><a href="facilities.html">Facilities</a></li>
+            <li><a href="activities.html">Activities &amp; Events</a></li>
+            <li><a href="request.html">Request for Parents</a></li>
+          </ul>
+        </div>
+
+        <!-- CONTACT AND MAP -->
+        <div>
+          <h4>Contact</h4>
+
+          <ul>
+            <li>
+              Sadhupally, Chhota Baharkuli, Purba Bardhaman,
+              West Bengal — 712146
+            </li>
+
+            <li>
+              <a href="tel:+919932250778">+91 99322 50778</a>
+            </li>
+
+            <li>
+              <a href="mailto:sadhupallyfpschool@gmail.com">
+                sadhupallyfpschool@gmail.com
+              </a>
+            </li>
+          </ul>
+
+          <div class="footer-map">
+            <h4>Find Us</h4>
+
+            <iframe
+              src="https://maps.google.com/maps?q=Sadhupally%20F.P.%20School%2C%20West%20Bengal%20712146&z=14&output=embed"
+              title="Sadhupally F.P. School Map"
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+              style="border:0; width:100%;"
+              allowfullscreen
+            ></iframe>
+
+            <a
+              class="map-link"
+              href="https://www.google.com/maps/search/?api=1&query=Sadhupally%20F.P.%20School%2C%20West%20Bengal%20712146"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Get Directions →
+            </a>
+          </div>
+
+        </div>
+
+      </div>
+
+      <!-- FOOTER BOTTOM -->
+      <div class="footer-bottom">
+  <span>© 2026 Sadhupally F.P. School. All rights reserved.</span>
+  <span>
+    Website by
+    <a href="https://g.dev/susamoymandi"
+       target="_blank"
+       rel="noopener noreferrer">
+      Susamoy Mandi ↗
+    </a>
+    <small>(View Developer Profile)</small>
+  </span>
+</div>
+
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
