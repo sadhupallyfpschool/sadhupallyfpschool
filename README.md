@@ -1,16 +1,23 @@
-## Hi there 👋
+# 🏫 Sadhupally F.P. School
 
-<!--
-**sadhupallyfpschool/sadhupallyfpschool** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Welcome to the official GitHub profile of **Sadhupally F.P. School**.
 
-Here are some ideas to get you started:
+We are dedicated to providing quality primary education and creating a positive learning environment for young minds.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+### 🌐 Official Website
+Visit our school website to explore school information, activities, announcements, and contact details.
+
+### 💻 Website Technologies
+- HTML5
+- CSS3
+- JavaScript
+
+### 📌 About This Repository
+This repository contains the source code and development files for the official website of Sadhupally F.P. School.
+
+### 🚀 Development & Deployment
+The website is hosted on Vercel and connected to GitHub for automatic deployments whenever changes are pushed to the repository.
+
+---
+
+© 2026 Sadhupally F.P. School. All rights reserved.
