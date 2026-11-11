@@ -82,3 +82,28 @@ document.querySelectorAll('[data-gallery]').forEach(function (gallery) {
 
   start();
 });
+
+/* ========================================
+   IMAGE DOWNLOAD PROTECTION
+======================================== */
+
+// Disable right-click on images
+document.addEventListener('contextmenu', function (e) {
+    if (e.target.closest('img')) {
+        e.preventDefault();
+    }
+});
+
+// Disable image dragging
+document.addEventListener('dragstart', function (e) {
+    if (e.target.closest('img')) {
+        e.preventDefault();
+    }
+});
+
+// Disable image selection
+document.addEventListener('selectstart', function (e) {
+    if (e.target.closest('img')) {
+        e.preventDefault();
+    }
+});
