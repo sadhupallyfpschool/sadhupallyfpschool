@@ -15,6 +15,9 @@ Visit our school website to explore school information, activities, announcement
 ### 📌 About This Repository
 This repository contains the source code and development files for the official website of Sadhupally F.P. School.
 
+### 🚀 Development & Deployment
+The website is hosted on Vercel and connected to GitHub for automatic deployments whenever changes are pushed to the repository.
+
 ---
 
 © 2026 Sadhupally F.P. School. All rights reserved.
